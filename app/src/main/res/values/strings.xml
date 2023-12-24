@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Lamela Pharmacy</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="don_t_have_an_account">Don\'t Have an Account?</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="pharmacy">PHARMACY</string>
+    <string name="online">LAMELA</string>
+    <string name="welcome_to_our_online">WELCOME TO OUR ONLINE</string>
+    <string name="login">LOGIN</string>
+    <string name="already_have_an_account">Already Have an Account?</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="log_out">Log Out</string>
+
+    <string-array name="gender_options">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+
+    <string name="select_gender">Select Gender</string>
+
+    <string name="about_pharmacy_description">
+    <![CDATA[
+        Welcome to Lamela Pharmacy!
+
+        \n\nLamela pharmacy is an online based health care provider dedicated to providing high-quality and affordable medications to our customers.\n\nWith a wide range of prescription and over-the-counter drugs, we strive to make healthcare accessible to everyone.
+
+        \n\n\nOur team of experienced pharmacists is committed to ensuring that you receive the best care and advice. We prioritize your health and well-being, and our user-friendly online platform makes it convenient for you to order your medications from the comfort of your home.
+
+        \n\nThank you for choosing us for your healthcare needs. Your health is our priority!
+
+        \n\n\n\nContact Information:
+                    \n\nKampala-Uganda,
+                    \n080020022334,
+                    \nlamelapharmacy@gmail.com.
+
+    ]]>
+</string>
+    <string name="contact_us_header">Contact Us</string>
+    <string name="contact_address">90 Nakawa,
+                                          \nkampala-Uganda</string>
+    <string name="contact_phone">\n\nPhone:  080020022334</string>
+    <string name="contact_email">Email: \nlamelapharmacy@gmail.com</string>
+
+
+
+</resources>

@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "543915748559",
+    "project_id": "dukemubs",
+    "storage_bucket": "dukemubs.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:543915748559:android:cf33a9ef8bc370dbb19bba",
+        "android_client_info": {
+          "package_name": "com.kotlin.anew"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "543915748559-3iit8dalr78u5turtb83s522brffpo8j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsAJ_-t4S79EV_O8vMk4rLCVf1odeiMOc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "543915748559-3iit8dalr78u5turtb83s522brffpo8j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:543915748559:android:ea4e28d336e2dcd7b19bba",
+        "android_client_info": {
+          "package_name": "com.kotlin.lamelapharmacy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "543915748559-3iit8dalr78u5turtb83s522brffpo8j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsAJ_-t4S79EV_O8vMk4rLCVf1odeiMOc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "543915748559-3iit8dalr78u5turtb83s522brffpo8j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

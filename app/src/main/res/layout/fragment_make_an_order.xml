@@ -1,0 +1,71 @@
+<!-- fragment_order_medicine.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Make orders here"
+        android:textSize="23sp"
+        android:textColor="@color/Black"
+        android:textAlignment="center"
+        android:textStyle="bold"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medicine name"
+        android:textSize="18sp"
+        android:textColor="@color/Red"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/medicineNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Medicine Name"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quantity"
+        android:textSize="18sp"
+        android:textColor="@color/Red"
+        android:textStyle="bold"/>
+
+
+    <EditText
+        android:id="@+id/quantityEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Quantity"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prescripition"
+        android:textSize="18sp"
+        android:textColor="@color/Red"
+        android:textStyle="bold"/>
+
+
+    <EditText
+        android:id="@+id/prescriptionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Prescription (if required)"/>
+
+    <Button
+        android:backgroundTint="@color/Red"
+        android:id="@+id/submitOrderButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit Order"/>
+</LinearLayout>

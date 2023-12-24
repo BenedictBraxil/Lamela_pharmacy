@@ -1,0 +1,64 @@
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white"
+    tools:context=".Contact_Us">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_us_header"
+        android:textAlignment="center"
+        android:textColor="@color/Red"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:paddingBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_address"
+        android:textColor="@color/Red"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_phone"
+        android:textColor="@color/Red"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_email"
+        android:textColor="@color/Red"
+        android:textSize="18sp"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/feeeed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  Dear user, \nyou can use the above number and email to send feedback about\n our services. \n\n\nThank you"
+        android:textColor="@color/Black"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+
+</LinearLayout>

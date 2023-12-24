@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/home">
+
+
+        <fragment
+            android:id="@+id/home"
+            android:name="com.kotlin.lamelapharmacy.Home"
+            android:label="Home"
+            tools:layout="@layout/fragment_home" />
+        <fragment
+            android:id="@+id/contact"
+            android:name="com.kotlin.lamelapharmacy.Contact_Us"
+            android:label="Contact Us"
+            tools:layout="@layout/fragment_contact__us" />
+        <fragment
+            android:id="@+id/about_Us"
+            android:name="com.kotlin.lamelapharmacy.About_Us"
+            android:label="About_Us"
+            tools:layout="@layout/fragment_about__us" />
+        <fragment
+            android:id="@+id/info"
+            android:name="com.kotlin.lamelapharmacy.Disease_Information"
+            android:label="Disease Information"
+            tools:layout="@layout/fragment_disease__information" />
+        <fragment
+            android:id="@+id/order"
+            android:name="com.kotlin.lamelapharmacy.Make_an_order"
+            android:label="Make an order"
+            tools:layout="@layout/fragment_make_an_order" />
+        <fragment
+            android:id="@+id/meet"
+            android:name="com.kotlin.lamelapharmacy.Meet_the_doctor"
+            android:label="Meet the doctor"
+            tools:layout="@layout/fragment_meet_the_doctor"/>
+        <fragment
+            android:id="@+id/drug"
+            android:name="com.kotlin.lamelapharmacy.More_about_drugs"
+            android:label="More about drugs"
+            tools:layout="@layout/fragment_more_about_drugs"/>
+
+</navigation>
